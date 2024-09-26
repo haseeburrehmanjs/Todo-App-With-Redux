@@ -27,7 +27,7 @@ const todoSlice = createSlice({
         updateTodo: ((state, action) => {
             let updateVal = prompt('enter new value')
             if (updateVal !== '') {
-                state.todo[action.payload.index].title = updateVal
+                state.todo[action.payload.index].title = updateVal.toUpperCase()
             } 
         })
     }

@@ -24,7 +24,7 @@ const App = () => {
             alert('Please Enter Todo')
         } else {
             dispatch(addTodo({
-                title: inputRef.current.value
+                title: inputRef.current.value.toUpperCase()
             }))
         }
         inputRef.current.value = ''
