@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#inputTodo {
+    width: 100%;
+    height: 46px;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 186, 186);
+    padding-left: 10px;
+}
